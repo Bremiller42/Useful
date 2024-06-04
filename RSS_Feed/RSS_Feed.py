@@ -121,10 +121,6 @@ class Feed:
             self.days_label.config(text=f"Gathering from last {DAYS} days")
 
 
-def run_rss_feed():
-    feed = Feed(None)
-    feed.mainloop()
-
 def main():
     feed = Feed(None)
     feed.mainloop()
